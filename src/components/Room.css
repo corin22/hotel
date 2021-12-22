@@ -1,0 +1,199 @@
+.Room-container{
+    background: #f6f4f3;
+    width: 100%;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.Room-summary{
+    width: 250px;
+    padding: 15px;
+    flex-shrink: 0;
+    /* border: 1px solid orange; */
+}
+.Room-plan{
+    flex: 1;
+    border: 1px solid lightgray;
+    background: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.Room-thumbnail{
+    width: 100%;
+    overflow: hidden;
+}
+.Room-thumbnail img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.Room-info{
+    margin-top: 15px;
+}
+.Room-name{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.Room-max-occupancy{
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+.Room-more-info{
+    margin-top: 10px;
+    color: #156bc1;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.Room-rateplan{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid lightgray;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.Room-features{
+    /* border: 1px solid brown; */
+    flex: 1;
+}
+.Room-features-title{
+    color: #218242;
+    font-size: 0.95rem;
+}
+.Room-features-additionalInfo{
+    font-size: 0.8rem;
+}
+.Room-features-descriptions{
+    margin-top: 10px;
+    color: #218242;
+    font-size: 0.95rem;
+}
+.Room-features-description:nth-child(2){
+    color: black;
+}
+.Room-welcomeRewards{
+    flex: 1;
+    color: #7b1fa2;
+    font-size: 0.95rem;
+}
+.Room-price{
+    /* border: 1px solid green; */
+    flex: 1;
+    text-align: right;
+}
+.Room-price-per-day{
+    color: #333333;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.Room-price-info{
+    color: gray;
+    font-size: 0.7rem;
+}
+.Room-price-total{
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+.Modal-header{
+    padding: 16px 12px;
+    color: #d32f2f;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid lightgray;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    background: white;
+    margin-bottom: auto;
+}
+.Modal-close{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.Modal-room-type{
+    margin-left: 40px;
+    text-align: left;
+    flex:1;
+}
+.Modal-body{
+    width: 100%;
+    height: 650px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    color: var(--grey-1);
+    font-size: 0.9rem;
+    font-weight: 400;
+    box-sizing: border-box;
+
+    overflow-x: none;
+    overflow-y: auto;
+}
+.Modal-thumbnail-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.Modal-thumbnail{
+    width: 500px;
+    height: 280px;
+    overflow: hidden;
+}
+.Modal-thumbnail img{
+    width: 100%;
+    height: 100%;
+}
+.Modal-maxOccupancy{
+    flex: 1;
+    margin-left: 15px;
+    text-align: left;
+}
+.Modal-room-amenity{
+    width: 100%;
+    border-top: 1px solid lightgray;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+.Modal-room-facility{
+    width: 100%;
+    border-top: 1px solid lightgray;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.Modal-room-details-text{
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.Modal-room-details{
+    columns: 2 auto;
+    text-align: left;
+    color: #333333;
+    line-height: 25px;
+}
